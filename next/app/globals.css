@@ -4,17 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-  h1{
-    @apply text-2xl md:text-4xl text-white font-extrabold m-2;
+  h1 {
+    @apply text-2xl md:text-7xl text-gray-900 dark:text-white font-extrabold m-2;
   }
   body {
-    @apply bg-black;
+    /* @apply bg-black; */
     font-family: "Lato", sans-serif;
-    color: white;
+    /* color: white; */
   }
 }
 @layer components {
   .h1 {
-    @apply text-3xl md:text-7xl text-white font-extrabold m-6;
+    @apply text-3xl md:text-7xl  font-extrabold m-6;
   }
 }

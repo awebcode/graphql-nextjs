@@ -19,16 +19,14 @@ const Todo = () => {
 
   return (
     <div>
-      <h1 className="h1">Todo</h1>{" "}
-      {/* {data?.getTodo?.map((todo: ITodo) => {
+      <h1 className="h1">Todo</h1> <AddUser />
+      {data?.getTodo?.map((todo: ITodo) => {
         return (
           <li key={todo.id} className="">
             {todo.title}
           </li>
         );
-      })} */}
-          
-          <AddUser/>
+      })}
     </div>
   );
 };
